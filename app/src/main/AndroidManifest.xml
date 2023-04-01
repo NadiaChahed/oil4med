@@ -13,6 +13,20 @@
         android:theme="@style/Theme.MyApplication_Oil4Med"
         tools:targetApi="31">
         <activity
+            android:name=".DetailOilActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DetailHarvestActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MyOliveOilsActivity"
             android:exported="false">
             <meta-data
